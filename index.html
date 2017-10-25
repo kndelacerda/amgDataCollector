@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Slick Playground</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .slider {
+            width: 50%;
+            margin: 100px auto;
+        }
+        
+        .slick-slide {
+            margin: 0px 20px;
+        }
+        
+        .slick-slide img {
+            width: 100%;
+        }
+        
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+        
+        .slick-slide {
+            transition: all ease-in-out .3s;
+            opacity: .2;
+        }
+        
+        .slick-active {
+            opacity: .5;
+        }
+        
+        .slick-current {
+            opacity: 1;
+        }
+    </style>
+
+    <!-- keen analysis -->
+    <script type="text/javascript">
+        function createKeenWebAutoCollector() {
+            window.keenWebAutoCollector = window.KeenWebAutoCollector.create({
+                projectId: '59ee1a67c9e77c0001573e47',
+                writeKey: '692EFF59C85DAE9C14BB243FDB7447365E46B022F102D9ACAC64C3CF6ED3B69E216757C36F85D31206F29BD47CA36FECAE0F2B14D54B858FC862C668069ECFA94AF6A548482FDCAD0B61AB90BB69A1880A23BB5E1B4FAB2296E17F0B0006C5E3',
+                onloadCallbacks: window.keenWebAutoCollector.onloadCallbacks
+            }), window.keenWebAutoCollector.loaded()
+        }
+
+        function initKeenWebAutoCollector() {
+            window.keenWebAutoCollector.domReady() ? window.createKeenWebAutoCollector() : document.addEventListener("readystatechange", function() {
+                window.keenWebAutoCollector.domReady() && window.createKeenWebAutoCollector()
+            })
+        }
+        window.keenWebAutoCollector = {
+            onloadCallbacks: [],
+            onload: function(a) {
+                this.onloadCallbacks.push(a)
+            },
+            domReady: function() {
+                return ["ready", "complete"].indexOf(document.readyState) > -1
+            }
+        };
+    </script>
+    <script async type="text/javascript" src="https://d26b395fwzu5fz.cloudfront.net/keen-web-autocollector-1.0.8.min.js" onload="initKeenWebAutoCollector()"></script>
+
+    <!-- keen custom datapoints -->
+    <script type="text/javascript">
+        window.keenWebAutoCollector.onload(function() {
+            window.keenWebAutoCollector.tracker.recordEvent('my_custom_event', {
+                property: 'value'
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">
+                    Data Collection
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="variable slider ">
+        <div>
+            <a href="#Hozukis-Coolheadedness-2" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/HZC/HZC_02_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Hozuki's Coolheadedness 2</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Dynamic-Chord" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/DYC/DYC_01_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Dynamic Chord</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#ClassicaLoid2" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/CLD/CLD_02_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>ClassicaLoid 2</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#RIN-NE-3" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/RNE/RNE_03_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>RIN-NE 3</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Battle-Girl-High-School" style="font-size:3em;line-height:1em;">
+                <img src="http:d10xkldqejj5hr.cloudfront.net/titles/BGH/Battle-Girl-High-School_BGH_01_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Battle Girl High School</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Action-Heroine-Cheer-Fruits" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/ACF/action-heroine-cheer-fruits_ACF_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Action Heroine Cheer Fruits</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="variable slider ">
+        <div>
+            <a href="#Flying-Witch" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/FLW/FLW_01_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Flying Witch</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Chihayafuru" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/CHF/CHF_01_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Chihayafuru</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Girls-und-Panzer-der-Film" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/GUP/GUP_MOVIE_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Girls und Panzer der Film</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Ushio-and-Tora" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/UHT/UHT_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Ushio & Tora</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Battle-Girl-High-School" style="font-size:3em;line-height:1em;">
+                <img src="http:d10xkldqejj5hr.cloudfront.net/titles/BGH/Battle-Girl-High-School_BGH_01_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Battle Girl High School</h3>
+            </div>
+        </div>
+        <div>
+            <a href="#Food-Wars!" style="font-size:3em;line-height:1em;">
+                <img src="http://d10xkldqejj5hr.cloudfront.net/titles/FDW/FDW_MASTER_300x169.jpg">
+            </a>
+            <div class="synopsis">
+                <h3 title>Food Wars!</h3>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <p class="small text-muted">Data Collection Purposes Only</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js " type="text/javascript "></script>
+    <script src="./slick/slick.js " type="text/javascript " charset="utf-8 "></script>
+    <script type="text/javascript ">
+        $(document).on('ready', function() {
+            $(".vertical-center-4 ").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 4,
+                slidesToScroll: 2
+            });
+            $(".vertical-center-3 ").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".vertical-center-2 ").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 2
+            });
+            $(".vertical-center ").slick({
+                dots: true,
+                vertical: true,
+                centerMode: true,
+            });
+            $(".vertical ").slick({
+                dots: true,
+                vertical: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".regular ").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3
+            });
+            $(".center ").slick({
+                dots: true,
+                infinite: true,
+                centerMode: true,
+                slidesToShow: 5,
+                slidesToScroll: 3
+            });
+            $(".variable ").slick({
+                dots: true,
+                infinite: true,
+                variableWidth: true
+            });
+            $(".lazy ").slick({
+                lazyLoad: 'ondemand', // ondemand progressive anticipated
+                infinite: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>
